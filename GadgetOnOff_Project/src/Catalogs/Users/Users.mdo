@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ca7801e-2d36-4b7b-b324-ac59da33ca55">
+  <producedTypes>
+    <objectType typeId="5c049ee1-998c-4b64-90cb-ffe0465887d4" valueTypeId="d737723e-802f-4c03-a06e-b219d5694e34"/>
+    <refType typeId="2283cecc-d3bb-494c-ae00-758da2f95cf5" valueTypeId="e652d29a-d3cc-4914-8047-9618a84dffcb"/>
+    <selectionType typeId="957a4be1-812b-4c3e-9f0c-9f86fe615176" valueTypeId="975294ab-e41f-4608-ae25-c6b2979de6be"/>
+    <listType typeId="ccae2b90-b3da-4016-9fb7-67d5b0da10dc" valueTypeId="a3a88a24-a2bc-48ae-8c44-51eaf053709f"/>
+    <managerType typeId="c608a187-addf-42b0-b71c-457252be7ab5" valueTypeId="d7cde60c-a37f-478e-847d-ec05dfa0330d"/>
+  </producedTypes>
+  <name>Users</name>
+  <synonym>
+    <key>ru</key>
+    <value>Users</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Users.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Users.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Users.Form.ItemForm</defaultObjectForm>
+  <attributes uuid="e9a4a78a-ddfb-4a00-8b41-0443ef5efc11">
+    <name>FullName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Full name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fcf8c50e-1cc3-4846-9bcd-5cd868cfa8a3">
+    <producedTypes>
+      <objectType typeId="5a68048a-3d8e-488d-b611-b87e1fb3346c" valueTypeId="64f5808f-2a0c-4142-9b02-1d4810788de3"/>
+      <rowType typeId="d92a2a9e-f39c-4114-bad4-1c19cc5fc775" valueTypeId="6a3adcdd-42b5-4cf9-b4a0-ff24dffa7c48"/>
+    </producedTypes>
+    <name>RightList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Right list</value>
+    </synonym>
+    <attributes uuid="8130936c-723a-42bf-bfb4-c9c5be5a530b">
+      <name>RuleName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Rule name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a964747d-58ec-47b2-8491-9a27b2ad182e">
+      <name>RuleView</name>
+      <synonym>
+        <key>ru</key>
+        <value>Rule view</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa22f856-92d5-4033-a971-954939f61509">
+      <name>On</name>
+      <synonym>
+        <key>ru</key>
+        <value>On</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f2f33e9f-906e-4d46-b233-9f9c43bda396">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
